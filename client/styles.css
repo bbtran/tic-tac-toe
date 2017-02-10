@@ -1,0 +1,32 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+    font-family: arial, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 20em;
+    height: 20em;
+    border: .1em solid black;
+}
+
+.row {
+  display: flex;
+  border-bottom: .1em solid black;
+  width: 100%;
+  height: 33.33%;
+}
+
+.colbox {
+  display: flex;
+  height: 100%;
+  width: 33.33%;
+  border-left: .1em solid black;
+}

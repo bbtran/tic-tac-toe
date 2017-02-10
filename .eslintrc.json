@@ -1,10 +1,5 @@
 {
-	"extends": "airbnb",
-  "plugins": [
-      "react",
-      "jsx-a11y",
-      "import"
-  ],
+  "extends": "airbnb",
   "rules": {
   	"indent": 0,
   	"no-mixed-spaces-and-tabs": 0,
